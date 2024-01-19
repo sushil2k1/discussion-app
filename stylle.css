@@ -80,11 +80,13 @@ main{
     align-self: right;
 } */
 .bottom div button{
-    height: 22px;
-    width: 20px;
+    /* height: 28px; */
+    /* width: 20px; */
     margin-left: 500px;
     /* margin-bottom: 22px; */
+    border-radius: 4px;
 }
+
 
 #hh{
     /* align-items: center; */
@@ -134,7 +136,7 @@ main{
 
 #res div{
     background-color: rgba(91, 94, 96, 0.151);
-    width: 620px;
+    width:   620px;
     overflow: hidden;
     margin: 10px;
     padding: 3px;
@@ -150,6 +152,20 @@ main{
     border-radius: 5px ;
     
 }
+
+/* #res li div {
+    background-color: red;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    flex-direction: row;
+    justify-content: space-between;
+
+    
+}
+#res li div button{
+    /* justify-content: flex-end; */
+ 
+} */
 
 #response{
     display: flex;
@@ -189,3 +205,7 @@ s
     background-color: rgba(127, 255, 244, 0.251);
 }
 
+button::hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgba(62, 62, 244, 0.144);
+}
